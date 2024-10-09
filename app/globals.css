@@ -63,7 +63,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-primary;
+    @apply bg-primary text-white font-primary leading-loose;
   }
 }
 
