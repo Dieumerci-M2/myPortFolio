@@ -15,7 +15,7 @@ const StairsAnimation = {
 
 }
 
-const reverseIndex = (index : any) => {
+const reverseIndex = (index : number) => {
 
     const TotalSteps = 6
 
@@ -27,7 +27,8 @@ const Stairs = () => {
     return (
         <>
             {
-                [...Array(6)].map((_, index) => {
+                [...Array(6)].map((a, index) => {
+                   
                     return (
                         <motion.div
                             key={index}
@@ -41,7 +42,9 @@ const Stairs = () => {
                                 delay: reverseIndex(index) * 0.1
                             }}
                             className="h-full w-full bg-white relative"
+                        
                         />
+                        
                     )
 
                 })
