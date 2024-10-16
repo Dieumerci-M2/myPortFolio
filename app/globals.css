@@ -66,7 +66,7 @@
     @apply bg-primary text-white font-primary leading-loose;
   }
   .H1{
-    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold capitalize;
   }
   .H2{
     @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
