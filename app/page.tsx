@@ -1,9 +1,9 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 import Social from "@/components/Social";
+import Photo from "@/components/Photo";
 
 export default function Home() {
   return (
@@ -34,7 +34,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div>Photo</div>
+          <div>
+            <Photo />
+          </div>
         </div>
       </div>
     </main>
