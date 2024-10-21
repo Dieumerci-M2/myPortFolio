@@ -26,11 +26,11 @@ const Photo = () => {
       >
         <div className="flex justify-center items-center w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
           <Image
-            src="/assets/a.jpg"
+            src="/assets/md.png"
             priority
             quality={100}
-            width={200}
-            height={200}
+            width={600}
+            height={600}
             alt="Dieme"
             className="objectif-contain"
           />
@@ -44,9 +44,9 @@ const Photo = () => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <motion.circle 
-          cx="253" 
-          cy="253" 
-          r="250" 
+          cx="243" 
+          cy="243" 
+          r="240" 
           stroke="#00ff99" 
           strokeWidth="4"
           strokeLinecap="round"
