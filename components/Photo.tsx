@@ -10,7 +10,7 @@ const Photo = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2, durantion: 0.4, ease: "easeIn" }
+        transition: {  delay: 2, durantion: 0.4, ease: "easeIn" }
 
       }}
 
@@ -24,13 +24,13 @@ const Photo = () => {
         }}
 
       >
-        <div className="flex justify-center items-center w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
+        <div className="flex justify-center items-center w-[270px] h-[270px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
           <Image
             src="/assets/md.png"
             priority
             quality={100}
-            width={600}
-            height={600}
+            width={1000}
+            height={1000}
             alt="Dieme"
             className="objectif-contain"
           />
@@ -38,7 +38,7 @@ const Photo = () => {
       </motion.div>
 
       <motion.svg
-        className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+        className="w-[270px] xl:w-[506px] h-[270px] xl:h-[506px]"
         fill="transparent"
         viewBox="0 0 506 506"
         xmlns="http://www.w3.org/2000/svg"
@@ -46,9 +46,9 @@ const Photo = () => {
         <motion.circle 
           cx="243" 
           cy="243" 
-          r="240" 
+          r="230" 
           stroke="#00ff99" 
-          strokeWidth="4"
+          strokeWidth="5"
           strokeLinecap="round"
           strokeLinejoin="round"
           initial={{strokeDasharray : "24 10 0 0"}}
