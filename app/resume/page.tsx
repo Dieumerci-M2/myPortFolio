@@ -1,8 +1,10 @@
-import React from 'react'
+"use client";
 
 const resume = () => {
   return (
-    <div>resume</div>
+    <section className='container mx-auto'>
+      resume
+    </section>
   )
 }
 

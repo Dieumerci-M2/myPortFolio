@@ -1,8 +1,10 @@
-import React from 'react'
+"use client";
 
 const contact = () => {
   return (
-    <div>contact</div>
+    <article className="container mx-auto">
+      contact
+    </article>
   )
 }
 

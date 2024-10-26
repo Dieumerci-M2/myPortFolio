@@ -2,7 +2,11 @@ import React from 'react'
 
 const work = () => {
   return (
-    <div>work</div>
+    <section className='container mx-auto'>
+        <h1>
+          work
+        </h1>
+    </section>
   )
 }
 
