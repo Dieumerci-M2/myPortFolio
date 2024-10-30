@@ -74,6 +74,14 @@
   .H3{
     @apply text-[28px] xl:text-[24px] leading-[1.1] font-semibold;
   }
+  .Text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  
+  .Text-outline-hover{
+    -webkit-text-stroke: 1px #00ff99;
+  }
 }
 
 
+ 
